@@ -5,6 +5,10 @@ import freemarker.template.TemplateException;
 import java.io.IOException;
 import java.sql.SQLException;
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 public class AutoGenerationDemo {
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException, TemplateException {
         //数据库地址

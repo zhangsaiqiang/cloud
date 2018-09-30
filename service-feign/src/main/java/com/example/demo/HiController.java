@@ -3,6 +3,10 @@ package com.example.demo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 @RestController
 @ApiDoc
 public class HiController {

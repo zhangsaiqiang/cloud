@@ -9,6 +9,10 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient

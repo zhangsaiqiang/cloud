@@ -22,6 +22,10 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 
 public class QRCodeUtil {
     private static final String CHARSET = "utf-8";

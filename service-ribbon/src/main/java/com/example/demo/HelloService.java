@@ -6,6 +6,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 @Service
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 public class HelloService {
     @Autowired
     RestTemplate restTemplate;

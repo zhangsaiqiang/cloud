@@ -13,6 +13,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+
  * des对称加密
  */
 public class DESUtil {

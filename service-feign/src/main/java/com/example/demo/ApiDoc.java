@@ -2,6 +2,10 @@ package com.example.demo;
 
 import java.lang.annotation.*;
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE})

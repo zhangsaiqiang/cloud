@@ -3,9 +3,10 @@ import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import com.google.zxing.LuminanceSource;
+
 /**
- * @author 作者 :
- * @createDate 创建时间：2017年11月20日 上午11:47:32
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
  * 类说明--二维码规格
  */
 public class BufferedImageLuminanceSource extends LuminanceSource{

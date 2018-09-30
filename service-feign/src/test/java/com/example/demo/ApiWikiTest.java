@@ -7,6 +7,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
  * 1、扫描包下的controller注解类
  * 2、扫描controller类型下RequestMapping注解的方法
  * 3、获取方法的请求参数类，并获取参数类中的非静态参数

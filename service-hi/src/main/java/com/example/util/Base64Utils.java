@@ -4,6 +4,10 @@ import com.sun.jersey.core.util.Base64;
 
 import java.io.*;
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 public class Base64Utils {
     /**
      * 文件读取缓冲区大小

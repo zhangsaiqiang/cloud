@@ -1,7 +1,9 @@
 package com.example.demo;
 
+
 /**
- * Created by lixuegang on 2017/8/3.
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
  */
 public class ParamVO {
 

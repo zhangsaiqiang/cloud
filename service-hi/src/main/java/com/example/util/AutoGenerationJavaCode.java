@@ -9,6 +9,10 @@ import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 public class AutoGenerationJavaCode {
     private String url;
     private String name;

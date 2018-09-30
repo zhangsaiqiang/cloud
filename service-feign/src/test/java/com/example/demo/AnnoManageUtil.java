@@ -11,6 +11,10 @@ import java.net.URL;
 import java.util.*;
 
 
+/**
+ * @author zhagsaiqiang
+ * @date 2018/9/30 15:24
+ */
 public class AnnoManageUtil {
 
     public static Map<String, ExecutorBean> getRequestMappingMethod(Class classes) {
