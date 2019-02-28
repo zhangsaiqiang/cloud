@@ -26,7 +26,8 @@
 		<module>service-zuul</module>
 		<module>config-server</module>
 		<module>config-client</module>
-	</modules>
+        <module>shiro</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

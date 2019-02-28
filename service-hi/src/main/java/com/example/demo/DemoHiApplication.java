@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import io.jboot.components.limiter.annotation.EnableLimit;
+import io.jboot.web.controller.JbootController;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
-public class DemoHiApplication {
+public class DemoHiApplication extends JbootController {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoHiApplication.class, args);
@@ -30,6 +32,11 @@ public class DemoHiApplication {
         System.out.println("port111111222221:"+port);
         return "hi " + name + " ,i am from port:" + port;
     }
+    @EnableLimit(rate = 1,fallback = "fallbackMethod")
+    public void index(){
+        renderText("hello world");
+    }
+
 
 
 }
